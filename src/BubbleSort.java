@@ -1,0 +1,25 @@
+public class BubbleSort {
+
+    public static void main(String[] args) {
+
+        int[] arr = {3, 40, 35, 2};
+
+        int n = arr.length;
+        System.out.println("The length of array is: " + n);
+        int temp;
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < (n - i); j++) {
+                if (arr[j - 1] > arr[j]) {
+
+                    temp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        System.out.println("Array after bubble sort");
+        for (int j : arr) {
+            System.out.print(j + " ");
+        }
+    }
+}
