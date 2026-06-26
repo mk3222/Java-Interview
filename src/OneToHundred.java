@@ -1,13 +1,10 @@
-public class OneToHundred {
+void main() {
+    printOneToHundred(100);
+}
 
-    public static void main(String[] args) {
-        printOneToHundred(100);
-    }
-
-    public static void printOneToHundred(int n) {
-        for (int i = 1; i <= n; i++) {
-            System.out.println(i);
-        }
+public static void printOneToHundred(int n) {
+    for (int i = 1; i <= n; i++) {
+        IO.println(i);
     }
 }
 
