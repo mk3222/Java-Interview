@@ -1,11 +1,9 @@
-public class ReverseStringWithBuiltFunction {
-    public static void main(String[] args) {
+void main() {
 
-        String str = "Hello World";
+    String str = "Hello World";
 
-        StringBuilder sb = new StringBuilder(str);
-        sb.reverse();
-        System.out.println("The reversed string is: " + sb);
+    StringBuilder sb = new StringBuilder(str);
+    sb.reverse();
+    IO.println("The reversed string is: " + sb);
 
-    }
 }

@@ -1,14 +1,9 @@
-import java.util.ArrayList;
+void main() {
 
-public class Count100Integers {
+    ArrayList<Integer> numbers = new ArrayList<>(100);
 
-    public static void main(String[] args) {
-
-        ArrayList<Integer> numbers = new ArrayList<>(100);
-
-        for (int i = 1; i <= 100; i++) {
-            numbers.add(i);
-            System.out.println(numbers.get(i - 1));
-        }
+    for (int i = 1; i <= 100; i++) {
+        numbers.add(i);
+        IO.println(numbers.get(i - 1));
     }
 }
