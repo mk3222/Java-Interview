@@ -1,8 +1,6 @@
-public class RemoveWhiteSpaceWithBuildFunction {
-    public static void main(String[] args) {
+void main() {
 
-        String str = "Hello World";
-        str = str.replaceAll("\\s+", "");
-        System.out.println("The string without white space: " + str);
-    }
+    String str = "Hello World";
+    str = str.replaceAll("\\s+", "");
+    IO.println("The string without white space: " + str);
 }

@@ -1,12 +1,9 @@
-public class EvenOddNumber {
+void main() {
+    int number = 11;
 
-    public static void main(String[] args) {
-        int number = 11;
-
-        if (number % 2 == 0) {
-            System.out.println("It is an even number");
-        } else {
-            System.out.println("It is an odd number");
-        }
+    if (number % 2 == 0) {
+        IO.println("It is an even number");
+    } else {
+        IO.println("It is an odd number");
     }
 }
